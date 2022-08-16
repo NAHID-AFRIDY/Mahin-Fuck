@@ -4,8 +4,8 @@ os.system('git pull')
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from DUMP import menu
+    import a
     menu()
 elif bit == '32bit':
-    from a import menu
+    import a
     menu()
